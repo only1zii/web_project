@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'chunkfive';
+    src: url('learncss/chunkfive.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'chunkfive'
+    font-size: 87%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    display: grid;
+    
+    padding: 5px;
+    
+  
+}
+
+.content-area {
+    
+    background-image: linear-gradient(to bottom, #397dad, #FFF );
+    
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.main-area p {
+    font-size: 108%;
+    text-align: justify;
+}
+
+ .group {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+ }
+
+ .main {
+    display: grid;
+    
+    padding: 5px;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+ }
+    
+ 
+.group4{
+    grid-column: 1 / span 3;
+    
+    
+}
+
+ .D1 {
+    grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color:  rgb(205, 231, 153);
+ }
+
+ .D2 {
+    grid-column: 3;
+  grid-row: 1 / span 2;
+ }
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    background-color: #397dad;
+   
+}
+
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 100%;
+}
+ 
+
+
+
+html {
+    background-color: aquamarine;
+    background-image: linear-gradient(to bottom, aquamarine, #fff);
+
+}
+
+
+
+.list {
+   display: flex;
+   padding: 10px;
+   
+}
+
+.list a:hover {
+    background-color: rgb(205, 231, 153);
+    color: black;
+}
+
+.list li {
+   
+    list-style: none;
+    background: white;
+    margin: 5px;
+}
+
+.list a {
+    display: block;
+    text-decoration: none;
+    color: #397dad;
+    
+    padding: 14px 20px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+.foot {
+    text-align: center;
+    background-color: olivedrab;
+    font-size: 85%;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+.group4 {
+
+    
+    padding: 10px 10px;
+    background-color:  rgb(205, 231, 153);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.group5 {
+   
+    
+    padding: 10px 10px;
+    background-color: #FFF;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.group6 {
+    display: block;
+
+    
+    padding: 10px 10px;
+    background-color:  rgb(205, 231, 153);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.group7 {
+    display: block;
+
+    
+    padding: 10px 10px;
+    background-color: #FFF;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.group8 {
+    display: block;
+
+    
+    padding: 10px 10px;
+    background-color:  rgb(205, 231, 153);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.group9 {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    
+    margin: 10px 10px 10px 45px;
+    
+    display: block;
+    font-size: medium;
+    height: 300px;
+    
+
+}
+
+.group10 {
+    display: block;
+
+    padding: 10px 10px;
+    background-color:  white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.sidebar {
+    float: right;
+    width: 34%;
+    display: flex;
+
+}
+
+
+    
+.box1 {
+   background-image: linear-gradient(to top, #397dad, #FFF );
+    width: 320px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: medium;
+    height: 600px;
+    margin-top: 20px;
+
+}
+.box2 {
+    text-align: center;
+    background-color: olivedrab;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 15px;
+    padding-left: 10px;
+    
+
+}
+
+input {
+    padding-right: 110px;
+    margin-left: 40px;
+    display: flex;
+    border-radius: 5px;
+    height: 20px;
+    border: 0px;
+    margin-top: 10px;
+}
+.box3 {
+    text-align: center;
+    font-size: 15px;
+    background-color: olivedrab;
+    margin: 50px 10px 10px;
+    border-radius: 5px;
+    padding: 0.10px;
+}
+.box3 a {
+    color: #fff;
+}
+button {
+    color: black;
+    padding-left: 128px;
+    padding-right: 126px;
+    border: 0px;
+    height: 22px;
+    border-radius: 5px;
+
+}
+.forgot {
+color: red;
+
+
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+.fix {
+    clear: both;
+}
